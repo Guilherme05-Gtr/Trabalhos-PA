@@ -1,0 +1,22 @@
+<script>
+    var anoAtual=parseInt(prompt("Entre com o ano atual"));
+    var anoNasc=parseInt(prompt("Entre com o ano de nascimento"));
+    var idade = (anoAtual-anoNasc)
+    document.write("A Idade = "+idade);
+    if(idade<16){
+        document.write("voto proibido");
+    }
+    else if (idade<18) {
+     document.write("voto opcional");
+    }
+
+    else if (idade<=70) {
+        document.write("Voto obrigatorio");
+    }
+
+    else if (idade>70) 
+            document.write("voto opcional") ;
+        
+
+
+</script>

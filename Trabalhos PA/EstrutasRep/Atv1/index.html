@@ -1,0 +1,16 @@
+<script>
+    var i=1;
+    var n1, n2, m;
+    while(i<=5){
+        n1 = parseFloat(prompt("Entre com a 1a nota do "+i+"o. aluno"));
+        n2 = parseFloat(prompt("Entre com a 2a nota do "+i+"o. aluno"));
+        m =(n1+n2)/2;
+        
+        if(m<6){
+            document.write("Sua media eh "+m+" Reprovado<br>");
+        }else{
+            document.write("Sua media eh "+m+" Aprovado<br>");
+        }
+        i++;
+    }
+</script>

@@ -1,0 +1,20 @@
+<script>
+        // 1. Declaração dos vetores A e B com 5 elementos cada
+    let vetorA =[10,20,30,40,50];
+    let vetorB =[1,2,3,4,5];
+
+    // 2. Criação de um vetor C vazio para armazenar os resultados
+    let vetorC = [];
+
+    // 3. Laço de repetição para somar os elementos de mesma posição (índice)
+    for (let i = 0; i < 5; i++) {
+        
+        vetorC[i] = (vetorA[i] + vetorB[i]);
+    }
+
+    // 4. Exibição dos resultados 
+    document.write("Vetor A: ", vetorA+"<br>");
+    document.write("Vetor B: ", vetorB+"<br>");
+    document.write("Vetor C (Soma): ", vetorC);
+
+</script>
